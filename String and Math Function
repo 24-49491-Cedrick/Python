@@ -1,11 +1,9 @@
-# String Functions
 text = "hello world"
 print(text.upper())
 print(text.capitalize())
 print(text.replace("world", "Python"))
 print(len(text))
 
-# Math Functions
 import math
 
 num = 25
