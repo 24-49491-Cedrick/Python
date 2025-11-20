@@ -1,0 +1,12 @@
+person = {
+    "name": "Cedrick",
+    "age": 19,
+    "city": "Batangas"
+}
+
+print(person["name"])
+person["age"] = 12
+person["job"] = "Engineer"
+
+for key, value in person.items():
+    print(key, value)
